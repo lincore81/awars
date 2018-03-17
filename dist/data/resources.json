@@ -1,0 +1,17 @@
+{"content": [
+    {
+        "id": "tux.png",
+        "type": "image",
+        "url": "/gfx/tux.png"
+    },
+    {
+        "id": "tiles.png",
+        "type": "image",
+        "url": "/gfx/sprites/tiles.png"
+    },
+    {
+        "id": "units.png",
+        "type": "image",
+        "url": "/gfx/sprites/units.png"
+    }
+}]

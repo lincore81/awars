@@ -1,0 +1,41 @@
+{"content": [
+    {
+        "id": "tiles",
+        "type": "spritesheet",
+        "imageId": "tiles.png",
+        "spriteWidth": 16,
+        "spriteHeight": 16,
+        "spriteNames": {
+            "plains": 0,
+            "water": 1,
+            "hills": 2,
+            "forest": 3,
+            "mountains": 4,
+            "beach": 5
+        }
+    },
+    {
+        "id": "layer",
+        "type": "tilelayer",
+        "tileWidth": 16,
+        "tileHeight": 16,
+        "tiles": [
+            ["plains", "plains", "plains", "water"],
+            ["plains", "plains", "mountains", "water"],
+            ["plains", "forest", "forest", "water"],
+            ["plains", "plains", "forest", "water"]
+        ]
+
+    },
+    {
+        "type": "spritesheet",
+        "imageId": "units.png",
+        "spriteWidth": 16,
+        "spriteHeight": 16,
+        "spriteNames": {
+            "guy": 0,
+            "movement marker": 16,
+            "selection marker": 17
+        }
+    }
+]}
